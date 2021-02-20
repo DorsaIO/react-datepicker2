@@ -4,10 +4,6 @@ import momentJalaali from 'moment-jalaali';
 import TimePicker from './TimePicker';
 import { persianNumber } from '../utils/persian';
 
-const disabledMinutes = () => {
-  return [...Array(60)].map((v, i) => i).filter(v => v % 5 !== 0);
-};
-
 export default class MyTimePicker extends Component {
   static propTypes = {
     momentValue: PropTypes.object,
@@ -51,7 +47,6 @@ export default class MyTimePicker extends Component {
         popupClassName={outsideClickIgnoreClass}
         panelClassName={`${outsideClickIgnoreClass} time-picker-panel`}
         onChange={this.handleChange.bind(this)}
-        disabledMinutes={disabledMinutes}
         formatter={value => persianNumber(value)}
         hideDisabledOptions
       />
