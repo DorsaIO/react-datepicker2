@@ -1,10 +1,10 @@
 {
-  "name": "react-datepicker2",
-  "version": "v3.3.15",
+  "name": "@DorsaIO/react-datepicker2",
+  "version": "v3.3.16",
   "description": "react datepicker component. (include persian jalaali calendar)",
-  "main": "dist/umd/index.js",
-  "types": "dist/types/index.d.ts",
-  "module": "dist/umd/index.js",
+  "main": "umd/index.js",
+  "types": "types/index.d.ts",
+  "module": "umd/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/mberneti/react-datepicker2"
