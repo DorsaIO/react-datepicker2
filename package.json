@@ -1,6 +1,6 @@
 {
   "name": "@DorsaIO/react-datepicker2",
-  "version": "v3.3.16",
+  "version": "v3.3.17",
   "description": "react datepicker component. (include persian jalaali calendar)",
   "main": "umd/index.js",
   "types": "types/index.d.ts",
